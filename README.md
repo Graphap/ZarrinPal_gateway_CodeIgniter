@@ -23,7 +23,7 @@ first section, I create and HTML file into View for my users :
       <label for="">مدت زمان : </label>
     </div>
     <div class="col-xs-12 form-group">
-      <select class="" id="choose_plan" title="مدت زمان نمایش آموزشگاه خود را مشخص کنید">
+      <select class="" id="choose_plan">
         <option>1 ماه</option>
         <option>2 ماه</option>
         <option>3 ماه</option>
@@ -37,7 +37,8 @@ first section, I create and HTML file into View for my users :
 ```
 As simple as you see, I created HTML code and now User can choose the plan.
 Second section, I pass my parameters via Ajax to my Controller :
-```javascript
+```
+$(document).ready(function() {
   $('body').on('click', '.payment', function ()
   {
     $.ajax({
@@ -58,9 +59,10 @@ Second section, I pass my parameters via Ajax to my Controller :
       }
     });
   });
+});
 ```
 So We're ready to create our Controller into Controller folder and named that My_Controller.php :
-```php
+```
 <?php
   defined('BASEPATH') OR exit('No direct script access allowed');
   class My_Controller extends CI_Controller {
@@ -95,6 +97,7 @@ So We're ready to create our Controller into Controller folder and named that My
       }
     }
   }
+?>
 ```
 
 It has continue
