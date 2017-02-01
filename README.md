@@ -7,13 +7,16 @@ You can find this article in persian language in <a href="http://graphap.com">Gr
 
 So I want to explain what we need at the first time and then explore to each step :
 
-1 - A file which has some HTML code for user to choose his/her plan and then clicked on payment button
-2 - I have used ajax for send and receive data, So we need a file which have some Javascript codes
-3 - After that we create some codes within a controller
-4 - And the last section we create a library to do what ever we want for payment operation
+1 - A file which has some HTML code for user to choose his/her plan and then clicked on payment button<br />
+2 - I have used ajax for send and receive data, So we need a file which have some Javascript codes<br />
+3 - After that we create some codes within a controller<br />
+4 - And the last section we create a library to do what ever we want for payment operation<br />
 
 Let’s begin :
 
 first section, I create and HTML file into View for my users :
 
 // HTML code
+<code>
+  <h1>Test</h1>
+</code>
