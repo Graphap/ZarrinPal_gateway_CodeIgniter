@@ -16,9 +16,10 @@ Let’s begin :
 
 first section, I create and HTML file into View for my users :
 
-// HTML code
+```html
 <pre>
   <code>
     <h1>Test</h1>
   </code>
 </pre>
+```
