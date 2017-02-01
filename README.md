@@ -18,5 +18,7 @@ first section, I create and HTML file into View for my users :
 
 // HTML code
 <pre>
-  <h1>Test</h1>
+  <code>
+    <h1>Test</h1>
+  </code>
 </pre>
